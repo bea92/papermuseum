@@ -81,7 +81,7 @@ html {
     border-bottom: 1px solid #0A0101;
     display: flex;
     align-items: center;
-    background-image: url("./images/bg-r.png");
+    background-image: url("images/bg-r.png");
     background-size: 200%;
     background-position: bottom right;
     background-repeat: no-repeat;
@@ -98,7 +98,7 @@ html {
     border-bottom: 1px solid #0A0101;
     background-color: #3479FF;
     color:white;
-    background-image: url("./images/bg-2.png");
+    background-image: url("images/bg-2.png");
     background-size: 40%;
     /* background-position: bottom left; */
     background-repeat: x-repeat;
