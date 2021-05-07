@@ -33,20 +33,7 @@ html {
     padding: 0;
   }
   
-  #nav {
-    background: #0A0101;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: fixed;
-    flex-wrap: wrap;
-    top: 0;
-    width: 100%;
-    z-index: 9999;
-  }
-  
 
-  
   #top {
     position: fixed;
     bottom: 0.5rem;
@@ -557,7 +544,7 @@ html {
     width: 100%;
     height: 100%;
     z-index: 99999;
-    background: #0A0101;
+    background: #FF451D;
   }
   
   .dot-a {
@@ -590,7 +577,7 @@ html {
   
   @media only screen and (max-width : 1224px) {
     body {
-      font-size: 0.9rem;
+      font-size: 0.6rem;
     }
 
     html{
@@ -604,4 +591,30 @@ html {
     html{
         width:fit-content;
     }
+
+    h1 {
+        font-size: 3rem;
+        line-height: 1;
+        font-weight: 600;
+      }
+      
+      h2 {
+        font-size: 2rem;
+      }
+      
+      h3{
+        line-height: 1.3em;
+      }
+    
+      #intro {
+        padding: 0;
+        margin-bottom: 0rem;
+        border-bottom: 1px solid #0A0101;
+        display: flex;
+        align-items: center;
+        background-image: url("images/bg-r.png");
+        background-size: 400%;
+        background-position: bottom right;
+        background-repeat: no-repeat;
+      }
   }
